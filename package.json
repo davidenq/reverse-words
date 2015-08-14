@@ -1,0 +1,30 @@
+{
+  "name" : "reverse-words",
+  "version" : "0.0.1",
+  "description" : "Solución al problema planteado por Google Code Jam y las rondas de clasificación Africa 2010",
+  "keywords" : [ "Google Code Jam", "Reverse Words" ],
+  "engine" : {
+    "node" : ">=0.10.*"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/davidenq/reverse-words"
+  },
+  "bugs" : {
+    "url" : "https://github.com/davidenq/reverse-words/issues"
+  },
+  "author" : {
+    "name" : "David Núñez",
+    "email" : "davip@live.com",
+    "url" : "www.davidenq.com"
+  },
+  "license" : {
+    "type" : "MIT"
+  },
+  "maintainers" : {
+    "name" : "David Núñez",
+    "email" : "davip@live.com"
+  },
+  "main" : "index.js",
+  "readmeFilename": "README.md"
+}
