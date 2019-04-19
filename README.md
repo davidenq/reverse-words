@@ -1,29 +1,32 @@
 
-#Reverse-Words
+# Reverse-Words
 
-Solución al problema planteado por Google Code Jam y las rondas de clasificación Africa 2010
+This is one of the n solutions for a problem proposed by Google in the Google Code Jam event for the qualifying round Africa 2010
 
-###Instalación
+### Clone this repo
 
 $ [sudo] git clone git@github.com:davidenq/reverse-words.git
 
 cd /reverse-words
 
-###¿Cómo usar?
+### How to use it?
 
-A continuación se muestra un ejemplo sensillo de la ejecución del modulo.
+Below is showed a simple example about how to execute this module.
 
-En `index.js` especificar el archivo que se desea leer.
+In `index.js` file you must indicate what file you want to read.
 
 ```js
 file = fs.readFileSync('./B-small-practice.in', 'utf8');
 
 ```
-Ejecutar
+
+Execute
+
 ```
 node index.js
 ```
-Se obtiene cómo resultado
+
+Outcome
 ```
 Case #1: test a is this
 Case #2: foobar
@@ -32,11 +35,11 @@ Case #4: class
 Case #5: along pony
 
 ```
-## Validar el resultado en Google Code Jam
+## How to validate it in Google Code Jam
 
-Para validar el resultado ejecuta el script, copia el resultado en un archivo de texto y dirígete a la página del problema [Reverse Words](https://code.google.com/codejam/contest/351101/dashboard#s=p1)
-y selecciona el boton small input o large input, carga el archivo de texto y google te indicará si el resultado es el esperado.
+In order to validate the outcome, you should execute the script, then you must copy the result in a file and then, visit the page [Reverse Words](https://code.google.com/codejam/contest/351101/dashboard#s=p1),
+choose the Solve B-small button or Solve B-large button, upload the file and finally Google show you whether the result is right.
 
-## Licencia
+## License
 
 MIT Licence
